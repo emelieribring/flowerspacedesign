@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/flowerspacedesign/static/css/main.1a6437c4.css",
+    "main.js": "/flowerspacedesign/static/js/main.279f634d.js",
+    "static/js/787.d868ced6.chunk.js": "/flowerspacedesign/static/js/787.d868ced6.chunk.js",
+    "static/media/colorSplash.jpg": "/flowerspacedesign/static/media/colorSplash.1837b26770d522f9d708.jpg",
+    "static/media/bgMovieTwo.mp4": "/flowerspacedesign/static/media/bgMovieTwo.0efbae03f270dd6b01e4.mp4",
+    "static/media/bgMovieFour.mp4": "/flowerspacedesign/static/media/bgMovieFour.e4d9d3f9f9339f1e5111.mp4",
+    "static/media/bgMovieThree.mp4": "/flowerspacedesign/static/media/bgMovieThree.e48875ea251b3471ac3f.mp4",
+    "static/media/bgMovie.mp4": "/flowerspacedesign/static/media/bgMovie.cb18225f32be8cdcfe4a.mp4",
+    "static/media/productIcon.png": "/flowerspacedesign/static/media/productIcon.85793d1ae314dbd54070.png",
+    "index.html": "/flowerspacedesign/index.html",
+    "main.1a6437c4.css.map": "/flowerspacedesign/static/css/main.1a6437c4.css.map",
+    "main.279f634d.js.map": "/flowerspacedesign/static/js/main.279f634d.js.map",
+    "787.d868ced6.chunk.js.map": "/flowerspacedesign/static/js/787.d868ced6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a6437c4.css",
+    "static/js/main.279f634d.js"
+  ]
+}

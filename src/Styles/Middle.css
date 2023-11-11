@@ -1,0 +1,200 @@
+.wrapperMiddle{
+    max-width: 100vw;
+    height: 100vh;
+    background-color: hsl(225, 54%, 11%);
+    position: relative;
+    display: flex;
+}
+
+.arrowDiv{
+    width: 20vw;
+    height: 100vh;
+    background-color: #0d152c;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.left, .right{
+    width: 5vw;
+    height: 10vh;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid #f164d3; /* Färg på gränsen */
+    box-shadow: 0 0 10px rgba(219, 52, 180, 0.7); /* Ljuseffekt */
+}
+
+.left:hover, .right:hover{
+    width: 6vw;
+    height: 12vh;
+}
+
+.product, .performance, .media, .pre-order{
+    width: 20vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 0.5px solid rgb(255, 255, 255, 0.5);
+    overflow: hidden;
+}
+
+/*.product:hover, .performance:hover, .media:hover, .pre-order:hover{
+    background-image: url(../Images/bgMovie.mp4);
+    background-size: cover;
+    background-position: 50%;
+}*/
+
+.product video, .performance video, .media video, .pre-order video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none; /* Dölj videon som standard */
+  }
+  
+  /* Visa videon när förälderelementet är hovrat */
+  .product:hover video,
+  .performance:hover video,
+  .media:hover video,
+  .pre-order:hover video {
+    display: block;
+  }
+  
+  /* Använd keyframes för att styra videouppsättningen */
+  @keyframes playOnce {
+    to {
+      opacity: 0;
+    }
+  }
+
+.number{
+    color: antiquewhite;
+    position: relative;
+    top: -180px;
+    left: 30px;
+    font-weight: 900;
+}
+
+.heading{
+    color: antiquewhite;
+    font-weight: 900;
+    font-size: 2vw;
+    position: relative;
+    left: 50px;
+}
+
+.underText{
+    color: antiquewhite;
+    font-weight: 900;
+    font-size: 0.8vw;
+    position: relative;
+    left: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.hoverText{
+    color: #0d152c;
+    width: 13vw;
+    position: relative;
+    left: 40px;
+    letter-spacing: 2px;
+    font-size: 1vw;
+    display: none;
+}
+
+
+.hoverBtn{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #8ab6c5;
+    border: 1px solid #006496; /* Färg på gränsen */
+    box-shadow: 0 0 10px rgba(52, 141, 219, 0.7); /* Ljuseffekt */
+    visibility: hidden;
+}
+
+.hoverBtn button{
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    color: antiquewhite;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.iconPlay{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(61, 154, 185, 0.5);
+}
+
+.product:hover .hoverBtn, .performance:hover .hoverBtn, .media:hover .hoverBtn, .pre-order:hover .hoverBtn {
+    visibility: visible;
+}
+
+.product{
+    background-color: #0d152c;
+}
+
+.productIcon{
+    width: 80px;
+}
+
+.product:hover .number, .performance:hover .number, .media:hover .number, .pre-order:hover .number {
+    top: -100px;
+}
+
+.product:hover .hoverText, .performance:hover .hoverText, .media:hover .hoverText, .pre-order:hover .hoverText {
+    display: block;
+}
+
+.product:hover .iconDiv, .performance:hover .iconDiv, .media:hover .iconDiv, .pre-order:hover .iconDiv {
+    display: none;
+  }
+
+.product:hover .heading, .performance:hover .heading, .media:hover .heading, .pre-order:hover .heading, .product:hover .underText, .performance:hover .underText, .media:hover .underText, .pre-order:hover .underText {
+    color: #0d152c;
+}
+
+  
+
+.performance{
+    background-color: #0d152c;
+}
+
+.iconDiv{
+    width: 8vw;
+    height: 16vh;
+    position: relative;
+    border-radius: 50%;
+    border: 0.5px solid #f164d3;
+    position: relative;
+    left: 40px;
+    top: -20px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media{
+    background-color: #0d152c;
+}
+
+.pre-order{
+    background-color: #0d152c;
+}
